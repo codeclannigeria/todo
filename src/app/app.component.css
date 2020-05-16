@@ -1,0 +1,23 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+#menu {
+  padding-bottom: 0.5em;
+  border-color: transparent;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 650px;
+  }
+}
